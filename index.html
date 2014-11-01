@@ -8,13 +8,14 @@
     <meta property="og:description" content="Analyze a paragraph of text, count words usage" />
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">  
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
       <!--Navigation Bar Header Start-->
       <nav class="navbar navbar-default" role="navigation">
         <div>
-            <a class="navbar-brand" href="#">Keystroke Calculator<span class="badge">Beta</span></a>
+            <a class="navbar-brand" href="#">Keystroke Calculator - <span class="badge">Ver. 1.0</span></a>
         </div>    
       </nav>
       <!--Navigation Bar Header End-->
@@ -32,7 +33,7 @@
           <!-- First Number Input -->      
           <div class="form-group">
             <label class="control-label" for="inputSmall">First Number</label>
-            <input class="form-control input-sm" type="text" id="inputSmall">
+            <input class="form-control input-sm" type="text" id="number1">
             </div>
         
           </div>
@@ -40,9 +41,13 @@
           <!-- Second Number Input -->
           <div class="form-group">
             <label class="control-label" for="inputSmall">Second Number</label>
-            <input class="form-control input-sm" type="text" id="inputSmall">
+            <input class="form-control input-sm" type="text" id="number2">
           </div>
-          <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text   </p>
+          <div class="solution">
+            <h4>Answer</h4>
+          </div>
+          <div id="answer">
+          </div>
       </section>
       </div>
       <!-- End Left Side Columns -->
@@ -50,8 +55,16 @@
       <!-- Right Side Column -->
       <section id="rightSideColumn" class="col-md-6 col-sm-6 col-xs-12">
       <div id="rightSide">
-      <h4>How to use this site:</h4>
-      <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text   </p>
+      <h4><u>How to use this site</u>:</h4>
+      <p>
+        <ul>
+          <li>Input two numbers you wish to calculate.</li>
+          <li>Addition: Press "= +" key to add. </li>
+          <li>Subtraction: Press "- _" key to subtract.</li>
+          <li>Multiply: Press "shift + 8" key to multiply</li>
+          <li>Divide: Press "/" to divide.</li>
+        </ul>
+      </p>
       </section>
       </div>
       </div>
